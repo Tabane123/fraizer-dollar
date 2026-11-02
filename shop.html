@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse the FraizaDollar collection of custom apparel.">
+    <title>Shop | FraizaDollar</title>
+    <link rel="icon" href="_images/logo.png">
+    <link rel="stylesheet" href="css_assest/style (1).css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo" style="text-decoration:none">Fraiza<span>Dollar</span></a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="shop.html" class="active" aria-current="page">Shop</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="shop-hero">
+        <div class="shop-hero-content">
+            <h1>Our Collection</h1>
+            <p>Premium custom apparel designed to elevate your brand identity</p>
+        </div>
+    </section>
+
+    <section class="shop">
+        <div class="container">
+
+            <div class="shop-filters" role="group" aria-label="Filter products">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="tees">T-Shirts</button>
+                <button class="filter-btn" data-filter="hoodies">Hoodies</button>
+                <button class="filter-btn" data-filter="jackets">Jackets</button>
+                <button class="filter-btn" data-filter="bottoms">Bottoms</button>
+            </div>
+
+            <!-- Product cards are rendered by js/script.js -->
+            <div class="products-grid" id="shopGrid"></div>
+
+            <div class="shop-cta">
+                <h3>Need Custom Branding?</h3>
+                <p>We create fully customized apparel for teams, businesses and events.</p>
+                <a href="contact.html" class="btn-primary">Request a Quote</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 FraizaDollar. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
